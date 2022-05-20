@@ -1,0 +1,107 @@
+{
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Customer Data",
+    "Send Messages"
+  ],
+  "publishedPageOrder": [
+    "Customer Data",
+    "Send Messages"
+  ],
+  "publishedDefaultPageName": "Send Messages",
+  "unpublishedDefaultPageName": "Send Messages",
+  "invisibleActionFields": {
+    "Customer Data_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Customer Data_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Customer Data_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Customer Data_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_AddNewList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_DiscordAPI": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_GetCustomerList": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Send Messages_GetMarketingList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_NumberOfCustomers": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_NumberOfMailinglists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_SendEmail": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_Utils.addList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_Utils.getEmails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_Utils.sendMessages": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_allCustomerList": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Send Messages_doNotDisturbCount": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Send Messages_getAllCustomers": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
+  "publishedLayoutmongoEscapedWidgets": {
+    "Customer Data": [
+      "data_table"
+    ],
+    "Send Messages": [
+      "Table2",
+      "Table1"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Customer Data": [
+      "data_table"
+    ],
+    "Send Messages": [
+      "Table2",
+      "Table1"
+    ]
+  },
+  "fileFormatVersion": 2
+}

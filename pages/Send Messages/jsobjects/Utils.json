@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Send Messages",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tsendMessages: () => {\n\t\tif(DiscordSwitch.isSwitchedOn){\n\t\t\tDiscordAPI.run();\n\t\t\tconst successMessage1 =\"Discord Message sent to \".concat(List1.selectedItem.Mailinglist).concat(\" server\") \n\t\t\tshowAlert(successMessage1,'success');\n\t\t\t}\n\t\tif(EmailSwitch.isSwitchedOn){\n\t\t\tSendEmail.run();\n\t\t\tconst successMessage2 =\"Email sent to users on \".concat(List1.selectedItem.Mailinglist).concat(\" list\") \n\t\t\tshowAlert(successMessage2,'success');\n\t\t}\n\t\tresetWidget(\"MessageModal\");\n\t\tcloseModal(\"MessageModal\");\n\t},\n\tgetEmails: () => {\n\t\tvar nameArray = Table1.selectedRows.map(function (el) { return el.CustomerEmailID; });\n\t\treturn nameArray.toString();\n\t},\n\taddList: () => {\n\t\tconst a =\"We have created a new list\".concat(List_Name.text);\n\t\tAddNewList.run();\n\t\tshowAlert(a,'success');\n\t\tresetWidget(\"mailingListModal\");\n\t\tGetMarketingList.run();\n\t\tcloseModal(\"mailingListModal\");\n\t}\n}",
+    "variables": []
+  },
+  "id": "Send Messages_Utils",
+  "deleted": false,
+  "gitSyncId": "61efa094be698f35db5519a1_61f8de0e9d6d6a6720c9ba69"
+}
